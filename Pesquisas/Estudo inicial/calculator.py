@@ -33,7 +33,6 @@ def test_input_invalido_quebra_de_linha():
     except ValueError as e:
         assert str(e) == "Input inválido."
 
-# Código para execução manual - protegido com if __name__ == "__main__"
 if __name__ == "__main__":
     numero1 = int(input('Insira o primeiro número: '))
     numero2 = int(input('Insira o segundo número: '))
